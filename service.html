@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex" />
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='PON DESIGN'>
+  <meta property='og:url' content=''>
+  <!-- <meta property='og:description'
+    content='PON DESIGNは、新規サイト制作や運用、アプリ開発に強いWeb制作会社です。サイト作りはお客様の夢を叶えること。だからこそ成果を出すサイトを全力でお作りします。'> -->
+  <meta property="og:image" content="">
+  <!-- <meta name="description"
+    content="PON DESIGNは、新規サイト制作や運用、アプリ開発に強いWeb制作会社です。サイト作りはお客様の夢を叶えること。だからこそ成果を出すサイトを全力でお作りします。" /> -->
+  <meta name="description" content="無料コーディング練習所 企業サイト練習用">
+  <title>SERVICE - 事業内容｜PON DESIGN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/41b1f8d62e.js" crossorigin="anonymous"></script>
+  <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/png" href="img/icon-192x192.png">
+  <link rel="apple-touch-icon" type="image/png" href="img/apple-touch-icon-180x180.png">
+  <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+  <!-- header -->
+  <header id="header" class="l-header"></header>
+  <!-- /header -->
+
+  <!-- subhero -->
+  <div id="sub_hero" class="p-sub-hero"></div>
+  <!-- /subhero -->
+
+  <!-- breadcrumb -->
+  <div id="breadcrumb" class="p-breadcrumb"></div>
+  <!-- /breadcrumb -->
+
+  <main class="l-contents">
+    <!-- service_list -->
+    <section id="service_list" class="p-service-list-wrapper l-section"></section>
+    <!-- /service_list -->
+
+    <!-- contact -->
+    <section id="contact" class="p-contact"></section>
+    <!-- /contact -->
+
+  </main>
+
+  <!-- footer -->
+  <footer id="footer" class="l-footer"></footer>
+  <!-- /footer -->
+
+  <div class="c-page-top">
+    <span class="c-page-top__link"><i class="fas fa-arrow-up" aria-hidden="true"></i></span>
+  </div>
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/polyfill/stickyfill.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    {
+      $(function () {
+        $("#header").load("component/header.html");
+        $("#sub_hero").load("component/sub_hero/sub_hero_service.html");
+        $("#breadcrumb").load("component/breadcrumb/breadcrumb_service.html");
+        $("#service_list").load("component/service_list.html");
+        $("#contact").load("component/contact.html");
+        $("#footer").load("component/footer.html");
+      });
+    }
+  </script>    
+</body>
+</html>

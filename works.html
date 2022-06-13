@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex" />
+  <meta property='og:type' content='website'>
+  <meta property='og:title' content='PON DESIGN'>
+  <meta property='og:url' content=''>
+  <!-- <meta property='og:description'
+    content='PON DESIGNは、新規サイト制作や運用、アプリ開発に強いWeb制作会社です。サイト作りはお客様の夢を叶えること。だからこそ成果を出すサイトを全力でお作りします。'> -->
+  <meta property="og:image" content="">
+  <!-- <meta name="description"
+    content="PON DESIGNは、新規サイト制作や運用、アプリ開発に強いWeb制作会社です。サイト作りはお客様の夢を叶えること。だからこそ成果を出すサイトを全力でお作りします。" /> -->
+  <meta name="description" content="無料コーディング練習所 企業サイト練習用">
+  <title>WORKS - 制作実績｜PON DESIGN</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/41b1f8d62e.js" crossorigin="anonymous"></script>
+  <link href="style.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="icon" type="image/png" href="img/icon-192x192.png">
+  <link rel="apple-touch-icon" type="image/png" href="img/apple-touch-icon-180x180.png">
+  <link rel="icon" href="img/favicon.ico">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header id="header" class="l-header"></header>
+  <!-- /header -->
+
+  <!-- sub_hero -->
+  <div id="sub_hero" class="p-sub-hero"></div>
+  <!-- /sub_hero -->
+
+  <!-- breadcrumb -->
+  <div id="breadcrumb" class="p-breadcrumb"></div>
+  <!-- /breadcrumb -->
+
+  <main class="l-contents">
+
+    <section class="p-works-list-wrapper l-section">
+      <div class="l-inner">
+
+        <div class="p-works-list c-card-wrapper c-card-wrapper--col3">
+          <div class="c-card">
+            <a href="#" class="c-card__link">
+              <div class="c-card__img-wrapper">
+                <img class="c-card__img" src="img/works/smoothiesta.jpg" alt="">
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__caption">Smoothiesta 様</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="c-card">
+            <a href="#" class="c-card__link">
+              <div class="c-card__img-wrapper">
+                <img class="c-card__img" src="img/works/web-conference.jpg" alt="">
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__caption">Web Conference 様</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="c-card">
+            <a href="#" class="c-card__link">
+              <div class="c-card__img-wrapper">
+                <img class="c-card__img" src="img/works/lamina.jpg" alt="">
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__caption">LAMINA 様</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="c-card">
+            <a href="#" class="c-card__link">
+              <div class="c-card__img-wrapper">
+                <img class="c-card__img" src="img/works/citylab.jpg" alt="">
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__caption">CITYLab 様</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="c-card">
+            <a href="#" class="c-card__link">
+              <div class="c-card__img-wrapper">
+                <img class="c-card__img" src="img/works/tabilog.jpg" alt="">
+              </div>
+              <div class="c-card__body">
+                <div class="c-card__caption">TABILOG 様</div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section id="contact" class="p-contact"></section>
+    <!-- /contact -->
+
+  </main>
+
+  <!-- footer -->
+  <footer id="footer" class="l-footer"></footer>
+  <!-- /footer -->
+
+  <div class="c-page-top">
+    <span class="c-page-top__link"><i class="fas fa-arrow-up" aria-hidden="true"></i></span>
+  </div>
+
+
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/polyfill/stickyfill.min.js"></script>
+  <script src="js/script.js"></script>
+  <script>
+    {
+      $(function () {
+        $("#header").load("component/header.html");
+        $("#sub_hero").load("component/sub_hero/sub_hero_works.html");
+        $("#breadcrumb").load("component/breadcrumb/breadcrumb_works.html");
+        $("#contact").load("component/contact.html");
+        $("#footer").load("component/footer.html");
+      });
+    }
+  </script> 
+</body>
+
+</html>
