@@ -69,6 +69,9 @@ $(document).ajaxStop(function () {
     var elements = $(".p-breadcrumb");
     Stickyfill.add(elements);
   }
+
+
+  
 });
 
 const swiper = new Swiper(".js-swiper-container", {
